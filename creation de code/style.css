@@ -11,12 +11,13 @@ body{
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .nav{
   background-image: linear-gradient(to bottom, #000, #545454);
   width: 100%;
-  height: 50px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -39,18 +40,18 @@ body{
 }
 
 .menu_navbar a i{
-  font-size: 35px;
+  font-size: 30px;
 }
 
-.content_Acceuille{
+.text_aceuille{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 50px 20px;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 40px 20px;
   position: relative;
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 .croche1{
@@ -58,8 +59,8 @@ body{
   height: 50px;
   border-top: 4px solid white;
   border-right: 4px solid white;
+  transform: translate(15px, 20px);
   margin-left: auto;
-  transform: translate(10px,30px);
   position: absolute;
   top: 0;
   right: 20px;
@@ -74,26 +75,551 @@ body{
   transform: translate(-15px, -40px);
   position: absolute;
   bottom: 0;
-  left: 20px;
+  left: 10px;
 }
 
-.content_Acceuille p{
+.text_aceuille p{
   color: rgb(255, 255, 255); 
   font-size: 15px;
   padding: 10px;
+}
+
+.slider_acceuille{
+  display: none;
 }
 
 .button_Acceuille{
   display: flex;
   justify-content: center;
   align-items: center;
+  /* transform: translateY(40px); */
 }
 
 .btn_acceuille{
   background: linear-gradient(to left,#303030, #000000);
   color: #E19630;
   border: 1px solid #E19630;
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
+
+
+@media screen and (min-width: 550px) {
+  .text_aceuille p{
+    color: rgb(255, 255, 255); 
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+
+@media screen and (min-width: 630px){
+  body{
+    background-image: url(../Images/background_desktop.png);
+  }
+
+  .ul_nav{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .ul_nav li.active{
+    color: #E19630;
+  }
+
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 13px;
+  }
+
+  .select_nav{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 13px;
+  }
+
+  .select_nav option{
+    background-color: black;
+    border: none;
+    font-size: 13px;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: #E19630;
+    /* width: 100px; */
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+    font-size: 13px;
+  }
+
+  .menu_navbar{
+    display: none;
+  }
+
+  .content_Acceuille_generale{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 60px;
+  }
+
+  .slider_acceuille{
+    display: flex;
+  }
+
+  .carousel-inner img.d-block{
+    width: 300px !important;
+    margin-right: 15px;
+  }
+
+  .text_aceuille{
+    transform: translateY(-50px);
+  }
+  .text_aceuille p{
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (min-width: 750px) {
+  .ul_nav{
+    gap: 30px;
+  }
+
+  .ul_nav li,
+  .select_nav,
+  .select_nav option,
+  .connectez{
+    font-size: 15px;
+  }
+
+  .connectez{
+    padding: 8px;
+    margin: 10px 10px 8px 0;
+  }
+
+  .carousel-inner img.d-block{
+    width: 380px !important;
+  }
+
+  .text_aceuille p{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (min-width: 860px) {
+  .nav{
+    height: 70px;
+  }
+
+  .nav img{
+    width: 180px;
+    height: 40px;
+    margin: 15px 0 5px 20px;
+  }
+
+  .ul_nav li,
+  .select_nav,
+  .select_nav option,
+  .connectez{
+    font-size: 17px;
+  }
+
+  .content_Acceuille_generale{
+    margin-top: 40px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 380px !important;
+  }
+/* 
+  .text_aceuille p{
+    font-size: 15px;
+  } */
+}
+
+@media screen and (min-width: 900px) {
+  .ul_nav li,
+  .select_nav,
+  .select_nav option{
+    font-size: 18px;
+  }
+
+  .croche1, 
+  .croche2{
+    width: 60px;
+    height: 60px;
+  }
+
+  .croche1{
+    transform: translate(10px, -10px);
+  }
+  
+  .croche2{
+    transform: translate(-10px, 30px);
+  }
+
+  .connectez{
+    padding: 10px;
+  }
+
+  .content_Acceuille_generale{
+    margin-top: 50px;
+  }
+
+  .text_aceuille p{
+    font-size: 16px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 410px !important;
+  }
+
+  .btn_acceuille{
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .ul_nav li,
+  .select_nav,
+  .select_nav option{
+    font-size: 20px;
+  }
+
+  .croche1, 
+  .croche2{
+    width: 70px;
+    height: 70px;
+  }
+
+  .croche1{
+    transform: translate(10px, -30px);
+  }
+  
+  .croche2{
+    transform: translate(-10px, 60px);
+  }
+
+  .ul_nav{
+    gap: 40px;
+  }
+
+  .text_aceuille p{
+    font-size: 18px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 480px !important;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .content_Acceuille_generale{
+    margin-top: 90px;
+  }
+
+
+  .text_aceuille p{
+    font-size: 23px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 520px !important;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  .content_Acceuille_generale{
+    margin-top: 90px;
+  }
+
+  .croche1,
+  .croche2{
+    width: 60px;
+    height: 60px;
+  }
+
+  .text_aceuille p{
+    font-size: 22px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 580px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (min-width: 1200px) {
+  body{
+    background-image: url(../Images/background_desktop.png);
+  }
+
+  .ul_nav{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .ul_nav li.active{
+    color: #E19630;
+  }
+
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+  .select_nav{
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 60px;
+  }
+
+  .select_nav option{
+    background-color: black;
+    border: none;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 12px 10px 5px 0;
+  }
+
+  .menu_navbar{
+    display: none;
+  }
+
+
+  .content_Acceuille_generale{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .croche2,
+  .croche1{
+    width: 60px;
+    height: 60px;
+  }
+
+  .slider_acceuille{
+    display: flex;
+    transform: translateY(-30px);
+    margin-right: 20px;
+  }
+
+  .text_aceuille p{
+    font-size: 20px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 500px !important;
+  }
+
+  .btn_acceuille{
+    padding: 12px;
+  }
+
+  .button_Acceuille{
+    transform: translateY(40px);
+  }
+}
+
+@media screen and (min-width: 1056px) {
+  body{
+    background-image: url(../Images/background_desktop.png);
+  }
+
+  .ul_nav{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .ul_nav li.active{
+    color: #E19630;
+  }
+
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+  .select_nav{
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 60px;
+  }
+
+  .select_nav option{
+    background-color: black;
+    border: none;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 12px 10px 5px 0;
+  }
+
+  .menu_navbar{
+    display: none;
+  }
+
+  .content_Acceuille_generale{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .croche2,
+  .croche1{
+    width: 60px;
+    height: 60px;
+  }
+
+  .croche1{
+    transform: translateY(-10px);
+  }
+  
+  .croche2{
+    transform: translate(-25px, -15px);
+  }
+
+  .slider_acceuille{
+    display: flex;
+    transform: translateY(60px);
+    margin-right: 20px;
+  }
+
+  .text_aceuille p{
+    font-size: 16px;
+  }
+
+  .carousel-inner img.d-block{
+    width: 500px !important;
+  }
+
+  .button_Acceuille{
+    transform: translateY(10px);
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1055px){
+  .ul_nav{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .ul_nav li.active{
+    color: #E19630;
+  }
+
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+  .select_nav{
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 60px;
+  }
+
+  .select_nav option{
+    background-color: black;
+    border: none;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 12px 10px 5px 0;
+  }
+
+  .menu_navbar{
+    display: none;
+  }
+
+
+  .content_Acceuille_generale{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .slider_acceuille{
+    display: flex;
+    transform: translateY(40px);
+    margin-right: 20px;
+  }
+  
+  .text_aceuille p{
+    font-size: 16px;
+  }
+  .carousel-inner img.d-block{
+    width: 500px !important;
+  }
+} */
