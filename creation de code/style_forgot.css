@@ -1,0 +1,91 @@
+.content_forgot{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.content_forgot p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  width: 100%;
+  height: 40px;
+}
+
+.content_forgot p:first-child{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.content_forgot p:last-child{
+  font-size: 16px;
+}
+
+.password_forgot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+  opacity: 0.8;
+  color: #fff;
+  width: 80%;
+  height: auto;
+  border: 3px solid #DF942E;
+  margin: auto;
+}
+
+.password_forgot img{
+  width: 25%;
+  height: auto;
+  background-image: linear-gradient(to top, #D08327, #684214);
+  padding: 10px;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+
+.inpt_forgot{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.inpt_forgot input{
+  height: 35px;
+  border: 3px solid #DDA306;
+  background-color: #858380;
+  border-radius: 5px;
+}
+
+.inpt_forgot input{
+  margin-bottom: 25px;
+}
+
+.inpt_forgot label{
+  margin-bottom: 8px;
+}
+
+.btn_forgot{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_forgot button:first-child{
+  background-color: #DF942E;
+  color: #000;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btn_forgot a:last-child{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
