@@ -15,7 +15,7 @@
     color: #fff;
     width: 80%;
     border: 3px solid #DF942E;
-    margin: 20px 40px;
+    margin: 20px auto;
 }
 
 .form_signin h1{
@@ -75,6 +75,7 @@
     transform: translateX(20px);
     list-style-type: none;
     text-decoration: none;
+    color: white;
 }
 
 .form_signin button{
