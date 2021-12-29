@@ -1,0 +1,335 @@
+.images_Signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.images_Signin img{
+    width: 25%;
+}
+
+.form_signin{
+    background-color: #000000;
+    opacity: 0.8;
+    color: #fff;
+    width: 80%;
+    border: 3px solid #DF942E;
+    margin: 20px 40px;
+}
+
+.form_signin h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.inpt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inpt input,
+.inpt label{
+    margin-bottom: 10px;
+}
+
+
+.inpt input{
+    width: 80%;
+    height: 35px;
+    border: 3px solid #DDA306;
+    background-color: #858380;
+    border-radius: 5px;
+}
+
+.inpt,
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inpt label{
+    width: 80%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.check input{
+    margin-right: 5px;
+}
+
+.check input,
+.check label{
+    transform: translateX(-20px);
+}
+
+.check a{
+    transform: translateX(20px);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.form_signin button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: #DF942E;
+    flex-direction: row-reverse;
+}
+
+.btn{
+    display: flex;
+    justify-content: right;
+    transform: translate(-10px ,20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-image: linear-gradient(to bottom, #000, #545454);
+    height: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav img{
+    width: 150px;
+    height: 35px;
+    margin: 10px 0 5px 20px;
+  }
+  
+  .ul_nav{
+    display: none;
+  }
+  
+  .menu_navbar{
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: none;
+  }
+  
+  .menu_navbar a i{
+    font-size: 30px;
+  }
+
+.imagee{
+    width: 126px;
+    margin-top:-200px;
+    margin-right: -1px;
+    position: absolute;
+    bottom: 380px;
+}
+.logo{
+    width:250px ;
+    height: 200px;
+    margin: 2px 70;
+    padding: 30px;
+}
+
+ 
+body{
+    background-image: url(img.png);
+    height: 812px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-attachment: fixed;
+}
+
+
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  
+    
+}
+
+.title{
+padding-left: 25px;
+margin: 28px;
+font-size: 13px;
+}
+h1{
+    color: white;
+    position: absolute;
+   font-size: 30px;
+    right: 140px;
+}
+ 
+form{
+   
+    width: 320px;
+    height: 440px;
+    padding: 10px 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+    gap: 30px;
+    background-color: #000000 ;
+    opacity: 60%;
+    border: 2px  #DDA306 solid ;
+    margin: 170px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 56px;
+}
+div{
+    border: 2px solid rebeccapurple;
+}
+.motPasse{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+label{
+    color: white;
+   
+  
+}
+.lab{
+   font-size: 20px; 
+}
+.lab2{
+    font-size: 20px; 
+}
+input {
+    border:2px  #DDA306 solid;
+    background-color: #858380;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.button{
+    width:60px;
+}
+
+.boutton{
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: -95px;
+    right: 35px;
+}
+.lab{
+    box-sizing: border-box;
+    display: flex;
+    gap: 5px;;
+    align-items: center;
+  
+  }
+  .a{
+      color: rgb(55, 0, 255);
+      text-decoration: none;
+      position: absolute;
+      top: 550px;
+      left: 180px;
+     
+     
+  }
+  A{
+      color: #1D6FFF;
+      font-size:13px ;
+
+  }
+  .labelC{
+      font-size: 13px;
+  }
+  .inpC{
+    width: 20px;
+  }
+  .far{
+background-color: red;
+border: 1px solid red;
+width: 30%;
+height: 30%;
+  }
+
+   */
