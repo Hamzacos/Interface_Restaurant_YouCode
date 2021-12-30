@@ -1,49 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-body{
-  background: url(../Images/background_phone.png);
-  width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.nav{
-  background-image: linear-gradient(to bottom, #000, #545454);
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav img{
-  width: 150px;
-  height: 35px;
-  margin: 10px 0 5px 20px;
-}
-
-.ul_nav{
-  display: none;
-}
-
-.menu_navbar{
-  color: white;
-  margin-top: 10px;
-  margin-right: 20px;
-  border: none;
-}
-
-.menu_navbar a i{
-  font-size: 30px;
-}
-
 .text_aceuille{
   display: flex;
   flex-direction: column;
@@ -120,52 +74,6 @@ body{
     background-image: url(../Images/background_desktop.png);
   }
 
-  .ul_nav{
-    display: flex;
-    gap: 20px;
-  }
-  
-  .ul_nav li.active{
-    color: #E19630;
-  }
-
-
-  .ul_nav li{
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    padding-top: 20px;
-    font-size: 13px;
-  }
-
-  .select_nav{
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 13px;
-  }
-
-  .select_nav option{
-    background-color: black;
-    border: none;
-    font-size: 13px;
-  }
-
-  .connectez{
-    background-image: linear-gradient(to left, #000, #545454);
-    border: 1px solid #E19630;
-    color: #E19630;
-    /* width: 100px; */
-    padding: 10px;
-    border-radius: 15px;
-    margin: 10px 10px 10px 0;
-    font-size: 13px;
-  }
-
-  .menu_navbar{
-    display: none;
-  }
-
   .content_Acceuille_generale{
     display: flex;
     flex-direction: row-reverse;
@@ -194,21 +102,6 @@ body{
 }
 
 @media screen and (min-width: 750px) {
-  .ul_nav{
-    gap: 30px;
-  }
-
-  .ul_nav li,
-  .select_nav,
-  .select_nav option,
-  .connectez{
-    font-size: 15px;
-  }
-
-  .connectez{
-    padding: 8px;
-    margin: 10px 10px 8px 0;
-  }
 
   .carousel-inner img.d-block{
     width: 380px !important;
@@ -245,19 +138,9 @@ body{
   .carousel-inner img.d-block{
     width: 380px !important;
   }
-/* 
-  .text_aceuille p{
-    font-size: 15px;
-  } */
 }
 
 @media screen and (min-width: 900px) {
-  .ul_nav li,
-  .select_nav,
-  .select_nav option{
-    font-size: 18px;
-  }
-
   .croche1, 
   .croche2{
     width: 60px;
@@ -270,10 +153,6 @@ body{
   
   .croche2{
     transform: translate(-10px, 30px);
-  }
-
-  .connectez{
-    padding: 10px;
   }
 
   .content_Acceuille_generale{
@@ -294,12 +173,6 @@ body{
 }
 
 @media screen and (min-width: 1024px){
-  .ul_nav li,
-  .select_nav,
-  .select_nav option{
-    font-size: 20px;
-  }
-
   .croche1, 
   .croche2{
     width: 70px;
@@ -312,10 +185,6 @@ body{
   
   .croche2{
     transform: translate(-10px, 60px);
-  }
-
-  .ul_nav{
-    gap: 40px;
   }
 
   .text_aceuille p{

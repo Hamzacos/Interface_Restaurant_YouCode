@@ -1,3 +1,11 @@
+.connectez{
+    display: none;
+}
+
+.first_part_SignIn{
+    display: none;
+}
+
 .images_Signin{
     display: flex;
     justify-content: center;
@@ -6,14 +14,14 @@
 }
 
 .images_Signin img{
-    width: 25%;
+    width: 100px;
 }
 
 .form_signin{
     background-color: #000000;
     opacity: 0.8;
     color: #fff;
-    width: 80%;
+    width: 350px;
     border: 3px solid #DF942E;
     margin: 20px auto;
 }
@@ -37,7 +45,7 @@
 
 
 .inpt input{
-    width: 80%;
+    width: 240px;
     height: 35px;
     border: 3px solid #DDA306;
     background-color: #858380;
@@ -52,22 +60,21 @@
 }
 
 .inpt label{
-    width: 80%;
+    width: 240px;
 }
 
 .check{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     padding-top: 10px;
     font-size: 10px;
 }
 
-.check input{
+.col_check input{
     margin-right: 5px;
 }
 
-.check input,
-.check label{
+.col_check{
     transform: translateX(-20px);
 }
 
@@ -87,12 +94,87 @@
     flex-direction: row-reverse;
 }
 
-.btn{
+.btn_phone{
     display: flex;
     justify-content: right;
     transform: translate(-10px ,20px);
 }
 
+.btn_desktop{
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .check{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .col_check{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .check a{
+        margin-top: 8px;
+    }
+}
+
+
+@media screen and (min-width: 630px) {
+    .Generale_SignIn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(30%);
+        flex-direction: row;
+    }
+    
+    .form_signin{
+        padding: 10px;
+        width: 300px;
+        border: none;
+    }
+
+    .first_part_SignIn{
+        display: flex;
+        width: 260px;
+        height: 360px;
+        background-image: linear-gradient(to top, #D08327, #684214);
+    }
+    
+    .first_part_SignIn img{
+        display: flex;
+        top: 100%;
+        width: 240px;
+        height: 240px;
+        margin-top: 40px;
+    }
+
+    .images_Signin{
+        display: none;
+    }
+
+    .btn_phone{
+        display: none;
+    }
+
+    .btn_desktop{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    #connexion{
+        background-color: #FA9403;
+        font-size: 16px;
+        font-weight: 600;
+        width: 240px;
+        height: 35px;
+        border-radius: 5px;
+    }
+}
 
 
 
