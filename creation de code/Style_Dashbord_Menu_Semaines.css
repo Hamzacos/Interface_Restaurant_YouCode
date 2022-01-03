@@ -1,1 +1,19 @@
+.paragraph{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+  flex-direction: column;
+  line-height: 50px;
+}
 
+.paragraph p:first-child{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.paragraph p:last-child{
+  font-size: 18px;
+}
