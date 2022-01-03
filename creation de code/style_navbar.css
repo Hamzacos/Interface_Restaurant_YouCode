@@ -15,7 +15,7 @@ body{
   background-size: cover;
 }
 
-.nav_Sign_in{
+.nav{
   background-image: linear-gradient(to bottom, #000, #545454);
   width: 100%;
   height: 50px;
@@ -23,23 +23,159 @@ body{
   justify-content: space-between;
 }
 
-.nav_Sign_in img{
+.nav img{
   width: 150px;
   height: 35px;
   margin: 10px 0 5px 20px;
 }
 
-.ul_nav_Sign_in{
+.ul_nav{
   display: none;
 }
 
-.menu_navbar_Sign_in{
+.menu_navbar{
   color: white;
   margin-top: 10px;
   margin-right: 20px;
   border: none;
 }
 
-.menu_navbar_Sign_in a i{
+.menu_navbar a i{
   font-size: 30px;
+}
+
+@media screen and (min-width: 630px){
+  body{
+    background-image: url(../Images/background_desktop.png);
+  }
+
+  .nav img{
+    width: 140px;
+    height: 30px;
+    margin-top: 12px ;
+  }
+
+  .ul_nav{
+    display: flex;
+    gap: 20px;
+  }
+  .ul_nav li a{
+    color: #E19630;
+  }
+
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 13px;
+  }
+
+  .ul_nav a{
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .select_nav{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 13px;
+    height: 60px;
+  }
+
+  .select_nav option{
+    background-color: black;
+    border: none;
+    font-size: 13px;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: #E19630;
+    padding: 6px 12px;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu_navbar{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 750px){
+  .nav{
+    height: 60px;
+  }
+
+  .nav img{
+    width: 150px;
+    height: 35px;
+    margin-top: 15px;
+  }
+
+  .ul_nav{
+    gap: 30px;
+  }
+
+  .select_nav{
+    height: 65px;
+  }
+
+  .ul_nav li,
+  .select_nav,
+  .select_nav option,
+  .connectez{
+    font-size: 18px;
+  }
+
+  .connectez{
+    padding: 8px;
+    margin: 10px 10px 8px 0;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .nav{
+    height: 65px;
+  }
+
+  .nav img{
+    width: 160px;
+    height: 40px;
+    margin-top: 18px;
+  }
+
+  .select_nav{
+    height: 70px;
+  }
+
+  .ul_nav li,
+  .select_nav,
+  .select_nav option{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .nav img{
+    width: 160px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .ul_nav li,
+  .select_nav,
+  .select_nav option{
+    font-size: 21px;
+  }
+
+  .ul_nav{
+    gap: 40px;
+  }
 }
