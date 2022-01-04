@@ -86,7 +86,7 @@
   font-size: 10px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .nav{
     position: fixed;
     top: 0;
@@ -98,12 +98,32 @@
     flex-direction: column;
   }
 
-  .content_Plats{
+  .back1,
+  .back2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .back3{
+    display: flex;
+    justify-content: left;
+  }
+  
+.Col_Part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* .content_Plats{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  }
+  } */
 
   .head_icon{
     width: 20%;

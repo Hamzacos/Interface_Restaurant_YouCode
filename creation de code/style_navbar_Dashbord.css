@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -27,11 +29,19 @@ body{
 }
 
 .nav img{
+<<<<<<< HEAD
   width: 150px;
+=======
+  width: 120px;
+
+>>>>>>> 044358791022422e1f124f24f8a0287269d3604f
   height: 35px;
   margin: 10px 0 5px 20px;
 }
 
+.ul_nav{
+  display: none;
+}
 .menu_navbar{
   color: white;
   margin-top: 10px;
@@ -90,6 +100,7 @@ body{
 
 .paragraph p:last-child{
   font-size: 18px;
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: 700px) {
@@ -165,3 +176,5 @@ body{
   }
 
 }
+=======
+>>>>>>> 044358791022422e1f124f24f8a0287269d3604f
