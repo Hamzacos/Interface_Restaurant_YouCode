@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap%27');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +14,8 @@ body{
   height: 100vh;
 }
 
-.list_Nav i{
+.list_Nav i,
+.ul_nav{
   display: none;
 }
 
@@ -25,7 +28,8 @@ body{
 }
 
 .nav img{
-  width: 150px;
+  width: 120px;
+
   height: 35px;
   margin: 10px 0 5px 20px;
 }
@@ -33,7 +37,6 @@ body{
 .ul_nav{
   display: none;
 }
-
 .menu_navbar{
   color: white;
   margin-top: 10px;
@@ -86,4 +89,3 @@ body{
 
 .paragraph p:last-child{
   font-size: 18px;
-}
