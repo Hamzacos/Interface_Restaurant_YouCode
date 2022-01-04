@@ -12,7 +12,8 @@ body{
   height: 100vh;
 }
 
-.list_Nav i{
+.list_Nav i,
+.ul_nav{
   display: none;
 }
 
@@ -28,10 +29,6 @@ body{
   width: 150px;
   height: 35px;
   margin: 10px 0 5px 20px;
-}
-
-.ul_nav{
-  display: none;
 }
 
 .menu_navbar{
@@ -86,4 +83,102 @@ body{
 
 .paragraph p:last-child{
   font-size: 18px;
+}
+
+@media screen and (min-width: 600px) {
+  .menu_navbar{
+    display: none;
+  }
+
+  .list_Nav i,
+  .ul_nav{
+   display: flex;
+  }
+
+  .list_Nav img{
+    width: 140px;
+    height: 30px;
+    margin: 0 20px;
+    /* margin-top: 12px ; */
+  }
+
+  .ul_nav{
+    display: flex;
+    gap: 20px;
+  }
+
+  .ul_nav li a{
+    color: #E19630;
+  }
+
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 13px;
+  }
+
+  .ul_nav a{
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  /* .select_nav{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 13px;
+    height: 60px;
+  }
+
+  .select_nav option{
+    background-color: black;
+    border: none;
+    font-size: 13px;
+  } */
+
+  .ul_nav i{
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .list_Nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .list_Nav i{
+    color: white;
+    padding: 0 0 0 10px;
+    font-size: 25px;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: #E19630;
+    padding: 6px 12px;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
 }
