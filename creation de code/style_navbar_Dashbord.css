@@ -23,10 +23,11 @@ body{
   height: 50px;
   display: flex;
   justify-content: space-between;
+  /* position: fixed; */
 }
 
 .nav img{
-  width: 120px;
+  width: 150px;
   height: 35px;
   margin: 10px 0 5px 20px;
 }
@@ -49,7 +50,12 @@ body{
   margin-top: 20px;
 }
 
+.head_icon p{
+  display: none;
+}
+
 .head_icon i{
+  display: flex;
   font-size: 40px;
 }
 
@@ -62,7 +68,8 @@ body{
 }
 
 .img_Menu img{
-  width: 15%;
+  /* width: 15%; */
+  min-width: 100px;
 }
 
 .paragraph{
@@ -85,7 +92,7 @@ body{
   font-size: 18px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .menu_navbar{
     display: none;
   }
@@ -125,20 +132,6 @@ body{
     text-decoration: none;
   }
 
-  /* .select_nav{
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 13px;
-    height: 60px;
-  }
-
-  .select_nav option{
-    background-color: black;
-    border: none;
-    font-size: 13px;
-  } */
-
   .ul_nav i{
     color: white;
     height: 60px;
@@ -156,7 +149,7 @@ body{
   .list_Nav i{
     color: white;
     padding: 0 0 0 10px;
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .connectez{
@@ -170,15 +163,5 @@ body{
     display: flex;
     align-items: center;
   }
-
-
-
-
-
-
-
-
-
-
 
 }
