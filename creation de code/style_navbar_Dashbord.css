@@ -55,7 +55,7 @@ body{
   margin-top: 65px;
 }
 
-.head_icon a{
+.icon1 a{
   list-style-type: none;
   text-decoration: none;
   color: white;
@@ -64,9 +64,6 @@ body{
   align-items: center;
 }
 
-.head_icon a:hover{
-  color: #E19630;
-}
 
 .head_icon p{
   display: none;
@@ -76,7 +73,13 @@ body{
   display: flex;
   font-size: 40px;
 }
+.head_icon.show {
+  width: 300px !important;
+}
 
+.head_icon a.active {
+  color: #E19630;
+}
 .img_Menu{
   width: 100%;
   /* max-width: 300px; */
@@ -135,6 +138,11 @@ body{
     display: flex;
     gap: 30px;
   }
+
+  
+/* .head_icon a:hover{
+  color: #E19630;
+} */
 
   .ul_nav li a{
     color: #E19630;
