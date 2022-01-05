@@ -76,6 +76,7 @@
 .choix2 img{
   width: 100%;
   height: 75px;
+  margin-left: 5px;
 }
 
 .choix1 p:first-child,
@@ -89,6 +90,7 @@
 .choix1 p:last-child,
 .choix2 p:last-child{
   font-size: 8px;
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 850px) {
