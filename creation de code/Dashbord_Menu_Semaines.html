@@ -33,7 +33,7 @@
     <!-- Head Icon -->
     <div class="content">
       <div class="head_icon">
-        <div class="icon1 active">
+        <div class="icon1">
           <a href="Dashbord_Menu_Semaines.html"><i class="far fa-calendar-alt"></i>
           <p>Menu De Semaines</p></a>
         </div>
@@ -186,22 +186,21 @@
 
   </div>
 
-
-    <script>
-      let navIcon = document.querySelector(".fas.fa-list-ul")
-      let headIcon = document.querySelector(".head_icon")
-      function show() {
-        headIcon.style.width = "240px"
+  <script>
+    let navToggle = document.querySelector(".fas.fa-list-ul")
+    let headIcon = document.querySelector(".head_icon")
+    
+    navToggle.addEventListener("click", toggle)
+    headIcon.addEventListener("click", toggle)
+    
+    
+    function toggle(e) {
+      if(window.innerWidth >= 850) {
+        headIcon.classList.toggle("show")
       }
-      function hide() {
-        headIcon.style.width = "60px"
-        
-      }
-      navIcon.addEventListener("mouseover", show)
-      navIcon.addEventListener("mouseout", hide)
-      headIcon.addEventListener("mouseover", show)
-      headIcon.addEventListener("mouseout", hide)
-    </script>
+    }
+  </script>
+    <script src="./index.js"></script>
     <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
   </main>
 </body>
