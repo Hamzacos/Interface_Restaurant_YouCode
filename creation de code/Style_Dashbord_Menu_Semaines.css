@@ -116,59 +116,12 @@
   .Tous_Choix{
     width: 80%;
   }
-  
-  .head_icon{
-    width: 60px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(80, 80, 80, 40%);
-    color: white;
-    position: fixed;
-    justify-content: center;
-    top: -15px;
-    left: 0;
-    row-gap: 50px;
-  }
 
   .part1{
     width: 100%;
     padding: 50px 0 30px 0;
   }
 
-  .icon1{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 10px;
-    transform: translateY(-40px);
-  }
-
-  .icon1 p{
-    display: block !important;
-    font-size: 12px;
-    margin-left: 15px;
-    white-space: nowrap;
-  }
-  .head_icon {
-    overflow: hidden;
-    transition: all .2s;
-  }
-  .icon1 i{
-    font-size: 40px;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .icon1 i{
-    font-size: 40px;
-  }
   
-  .icon1 p{
-    font-size: 15px;
-  }
-
-  .Tous_Choix{
-    width: 83%;
-  }
 }
+
