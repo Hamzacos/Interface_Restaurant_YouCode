@@ -82,7 +82,6 @@ body{
 }
 .img_Menu{
   width: 100%;
-  /* max-width: 300px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,15 +138,9 @@ body{
     gap: 30px;
   }
 
-  
-/* .head_icon a:hover{
-  color: #E19630;
-} */
-
   .ul_nav li a{
     color: #E19630;
   }
-
 
   .ul_nav li{
     color: white;
@@ -192,9 +185,44 @@ body{
     display: flex;
     align-items: center;
   }
+}
 
-  
+@media screen and (min-width: 850px) {
+  .head_icon{
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 80, 80, 40%);
+    color: white;
+    position: fixed;
+    justify-content: center;
+    top: -15px;
+    left: 0;
+    row-gap: 50px;
+  }
 
+  .icon1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+    transform: translateY(-40px);
+  }
+
+  .icon1 p{
+    display: block !important;
+    font-size: 12px;
+    margin-left: 15px;
+    white-space: nowrap;
+  }
+  .head_icon {
+    overflow: hidden;
+    transition: all .2s;
+  }
+  .icon1 i{
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -221,5 +249,19 @@ body{
   .connectez{
     font-size: 15px;
     padding: 8px 18px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .icon1 i{
+    font-size: 40px;
+  }
+  
+  .icon1 p{
+    font-size: 15px;
+  }
+
+  .Tous_Choix{
+    width: 83%;
   }
 }
