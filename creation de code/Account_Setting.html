@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Account</title>
+  <link rel="stylesheet" href="style_navbar_Dashbord.css">
+  <link rel="stylesheet" href="style_Account_Setting.css">
+</head>
+<body>
+  <main>
+    <!-- Nav Bar Dashbord De Menu -->
+    <div class="nav_bar">
+      <nav class="nav">
+        <div class="list_Nav">
+          <i class="fas fa-list-ul"></i>
+          <img src="../Images/logo.png" alt="logo">
+        </div>
+        <ul class="ul_nav">
+          <li class="active"><a href="index.html">Acceuil</a></li>
+          <li>Contacts</li>
+          <i class="fas fa-bell"></i>
+          <i class="fas fa-cog"></i>
+          <a href="sign_in.html"><button class="connectez">Se connectez</button></a>
+        </ul>
+        <div class="menu_navbar">
+          <a id="hedding-nav"><i class="fas fa-bars"></i></a>
+        </div>
+      </nav>
+    </div>
+  
+    <!-- Head Icon -->
+    <div class="content">
+      <div class="head_icon">
+        <div class="icon1">
+          <a href="#"><i class="far fa-calendar-alt"></i>
+          <p>Menu De Semaines</p></a>
+        </div>
+        <div class="icon1">
+          <a href="Dashbord_Reservation.html"><i class="fas fa-calendar-day"></i>
+          <p>Menu Du Jour</p></a>
+        </div>
+        <div class="icon1">
+          <a href="Dashbord_Menu_Day.html"><i class="fas fa-calendar-plus"></i>
+          <p>Reservation</p></a>     
+        </div>
+      </div>
+
+      <!-- Contenu De Form Account Settings -->
+      <div class="part_Setting_Account">
+        <div class="title_setting">
+          <h1>Account Settings</h1>
+          <div class="border_account">
+          </div>
+        </div>
+
+        <div class="content_Account">
+          <div class="change_page_account">
+            <a href="Account_Setting.html">Account</a>
+            <div class="border_Desktop_Account"></div>
+            <a href="Account_Setting_Password.html">Account</a>
+            <div class="border_Desktop_Account"></div>
+          </div>
+
+          <div class="context_form">
+            <div class="profil_account">
+              <div class="img_form">
+                <img src="../Images/Image_User_Account_Setting.png" alt="Image_User_Account_Setting">
+              </div>
+              <div class="btn_form">
+                <button>Change</button>
+                <button>DELETE</button>
+              </div>
+            </div>
+
+            <div class="content_form">
+              <div class="user">
+                <p>Login & security</p>
+                <div class="user_form">
+                  <i class="far fa-user-circle"></i>
+                  <p>Username</p>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+                
+                <!-- <div class="user_form">
+                  <i class="far fa-user-circle"></i>
+                  <p>Phone number</p>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+                
+                <div class="user_form">
+                  <i class="fas fa-phone-alt"></i>
+                  <a href="Account_setting_Password.html"><p>Password</p></a>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+
+                <div class="user_form">
+                  <i class="fal fa-envelope"></i>
+                  <p>Email</p>
+                  <i class="fas fa-chevron-right"></i>
+                </div> -->
+                
+              </div>
+
+              <button class="Account">
+                <button><i class="fas fa-sign-out-alt"></i>Logout</button>
+                <button>Cancel</button>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  
+      <script>
+        let navToggle = document.querySelector(".fas.fa-list-ul")
+        let headIcon = document.querySelector(".head_icon")
+        
+        navToggle.addEventListener("click", toggle)
+        headIcon.addEventListener("click", toggle)
+        
+        
+        function toggle(e) {
+          if(window.innerWidth >= 850) {
+            headIcon.classList.toggle("show")
+          }
+    
+        }
+      </script>
+      <script src="./index.js"></script>
+      <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
+  </main>
+</body>
+</html>

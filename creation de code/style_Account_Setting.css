@@ -1,0 +1,78 @@
+.part_Setting_Account{
+  background-color: rgba(255, 255, 255, 90%);
+  width: 80%;
+  margin: 30px;
+  /* height: 100vh; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  color: white;
+  padding: 20px;
+}
+
+.title_setting{
+  width: 100%;
+}
+
+.title_setting h1{
+  color: #FA9403;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.border_account{
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 2px solid rgba(31, 31, 31, 70%);
+}
+
+.change_page_account{
+  display: none;
+}
+
+.profil_account{
+  width: 100%;
+  display: flex;
+}
+
+.img_form{
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.img_form img{
+  width: 80%;
+  height: 90px;
+}
+
+.btn_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.btn_form button{
+  width: 90%;
+  
+}
+
+.btn_form button:first-child{
+  margin-top: 20px;
+  width: 80%;
+
+}
+
+.btn_form button:last-child{
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: #F12706;
+}
+
+
