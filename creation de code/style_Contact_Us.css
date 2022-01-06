@@ -1,0 +1,223 @@
+.Message_Contact{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.title_Contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title_Contact h1{
+  font-size: 20px;
+  font-weight: 600  ;
+  color: #FA9403;
+}
+
+.title_Contact p{
+  color: #707070;
+  font-size: 15px;
+}
+
+.form_contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: none;
+}
+
+textarea{
+  width: 240px;
+}
+
+::placeholder{
+  font-size: 10px;
+}
+
+textarea::placeholder{
+  padding: 5px 10px;
+}
+
+.form_contact input{
+  padding: 5px 10px;
+  width: 240px;
+}
+
+.btn_contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.btn_contact button{
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  background-color: #FA9403;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 200px){
+  .title_Contact h1{
+    font-size: 15px;
+  }
+  
+  .title_Contact p{
+    font-size: 8px;
+  }  
+}
+
+@media screen and (min-width: 300px){
+  .title_Contact h1{
+    font-size: 18px;
+  }
+  
+  .title_Contact p{
+    font-size: 12px;
+  }  
+}
+
+@media screen and (min-width: 500px) {
+  .Message_Contact{
+    margin-top: 30px;
+  }
+
+  textarea, 
+  .form_contact input{
+    width: 270px;
+  }
+
+  .title_Contact h1{
+    font-size: 25px;
+  }
+
+  .title_Contact p{
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .Message_Contact{
+    margin-top: 40px;
+  }
+
+  textarea, 
+  .form_contact input{
+    width: 300px;
+  }
+
+  .title_Contact h1{
+    font-size: 28px;
+  }
+
+  .title_Contact p{
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 650px) {
+  .Message_Contact{
+    margin-top: 50px;
+  }
+
+  textarea, 
+  .form_contact input{
+    width: 330px;
+  }
+
+  .title_Contact h1{
+    /* margin-top: 10px; */
+    font-size: 30px;
+  }
+
+  .title_Contact p{
+    font-size: 22px;
+  }
+
+  .btn_contact{
+    width: 230px;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+  .Message_Contact{
+    margin-top: 60px;
+  }
+
+  textarea, 
+  .form_contact input{
+    width: 400px;
+  }
+
+  .form_contact input{
+    padding: 10px;
+  }
+
+  ::placeholder{
+    font-size: 13px;
+  }
+
+  .title_Contact h1{
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .btn_contact{
+    width: 270px;
+  }
+}
+
+
+@media screen and (min-width: 758px) {
+  textarea, 
+  .form_contact input{
+    width: 500px;
+  }
+
+  .title_Contact h1{
+    font-size: 35px;
+  }
+
+  ::placeholder{
+    font-size: 16px;
+  }
+
+  .title_Contact p{
+    font-size: 25px;
+  }
+
+  .btn_contact button{
+    padding: 12px 10px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  textarea, 
+  .form_contact input{
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Message_Contact{
+    margin-top: 70px;
+  }
+}
+
