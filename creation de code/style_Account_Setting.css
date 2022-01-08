@@ -155,7 +155,6 @@
 .Account button:last-child{
   width: 60%;
   max-width: 200px;
-  border-radius: 10px;
   padding: 5px 0;
   margin-bottom: 10px;
   font-size: 15px;
@@ -164,10 +163,6 @@
 @media screen and (min-width: 500px){
   .part2_user i{
     display: none;
-  }
-
-  .scroll p{
-    font-size: 12px !important;
   }
 
   .part2_user{
@@ -243,9 +238,11 @@
   .context_form{
     width: 75%;
   }
+
   #password{
     display: none;
   }
+
   .change_page_account a{
     text-decoration: none;
     list-style-type: none;
@@ -253,6 +250,7 @@
     height: 40px;
     font-size: 20px;
   }
+
   .border_Desktop_Account{
     width: 80%;
     margin-bottom: 10px;
