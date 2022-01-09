@@ -1,14 +1,23 @@
 # Interface_Restaurant_YouCode
 
 Restaurant Youcode vient d'ouvrir ses portes. Il a besoin d'un système de gestion de son restaurant en ligne permettant de répondre aux histoires suivants :
+
 •	Réalisation d’une page utilisateur afin de connecter et afficher le menu de la semaine.
+
 •	Réalisation d’une page Réservation pour l’utilisateur.
+
 •	Réalisation d’une page Feedback pour donner un retour à propos les plats du jour.
+
 •	Réalisation d’une Dashboard Staff pour gérer les plat et les commandes.
+
 •	Toujours dans la Dashboard staff crée une page pour ajouter/modifier/supprimer les plats de la semaine.
+
 •	Une page qui affiche les nombres de réservation pour gérer le nombre des plats et des commandes.
+
 •	Réalisation d’une page statistique pour voir le feedback et la satisfaction.
+
 •	Création d’une Dashboard Admin pour gérer les compte d’utilisateur.
+
 •	Autant que Administrateur, je peux gérer les droits de sélection du plat du jour afin de pouvoir enlever ce droit aux utilisateur absent. 
 
 Travaille :
