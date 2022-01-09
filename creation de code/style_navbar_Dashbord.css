@@ -2,8 +2,8 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   font-family: 'Poppins', sans-serif;
+  padding: 0;
 }
 
 body{
@@ -119,6 +119,7 @@ body{
 .head_icon a.active {
   color: #E19630;
 }
+
 .img_Menu{
   width: 100%;
   display: flex;
@@ -198,7 +199,7 @@ body{
     text-decoration: none;
   }
 
-  .ul_nav i{
+  .ul_nav.li i{
     color: white;
     height: 60px;
     display: flex;
