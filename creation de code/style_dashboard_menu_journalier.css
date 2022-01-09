@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+.ALL1{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-calendar-day{
+    color: #FA9403;
+}
+
+
+.contenu1{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: left;
+    
+}
+
+ .choix{
+    text-align: center;
+    color: white;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-top: 2Opx;
+    font-family:'TR Tempus Sans ITC', sans-serif;
+}
+
+.choix1{
+   background-image: url(../Images/img-background1.svg);
+   background-repeat: no-repeat;
+   /* margin-top: 40px; */
+   margin-bottom: 40px;
+   height:auto;
+   background-size: auto;
+   background-position: center;
+   display: flex; 
+   flex-direction: column;
+   padding: clamp(2em,6vw,100em) 0px;
+   font-family:'TR Tempus Sans ITC', sans-serif;
+}
+
+.CHOIX{
+    margin:0 30px;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.choix2{
+    background-image: url(../Images/img-background1.svg);
+   background-repeat: no-repeat;
+   margin-bottom: 40px;
+   height:auto;
+   background-size: auto;
+   background-position: center;
+   display: flex; 
+   flex-direction: column;
+   padding: clamp(2em,6vw,100em) 0px;
+   font-family:'TR Tempus Sans ITC', sans-serif;
+ }
+
+ .recette1{
+     display: flex;
+     font-size: 1em;
+    margin-top: 30px;
+    justify-content: center;
+    font-family:'TR Tempus Sans ITC', sans-serif;
+ }
+
+.lentrer{
+    width: 45%;
+    color: white;
+    font-size: clamp(0.5em,2vw,4em);
+    justify-content:left;   
+}
+.lentrer h1{
+    font-size: clamp(1.3em,2vw,4em);
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.lentrer p{
+    font-size: clamp(0.6em,2vw,4em);
+}
+
+.list_resett1{
+    border-left: 2px solid white;
+    color: white;
+    padding-left: 14px;
+    margin-top: 20px;    
+}
+.list_resett1  h1{
+    font-size: clamp(0.6em,2vw,4em);
+    font-weight: normal;
+}
+.list_resett1 ul li {
+     list-style: none;
+     font-size: clamp(0.5em,2vw,4em);
+}
+.list_resett2{
+    border-left: 2px solid white;
+    color: white;
+    padding-left: 14px;
+    margin-top: 25px;
+    height: 100%;
+}
+
+.list_resett2 ul li {
+    list-style: none;
+    font-size: clamp(0.5em,2vw,4em);
+}
+.list_resett2  h1{
+    font-size: clamp(0.6em,2vw,4em);
+    font-weight: normal;
+}
+
+
+.plat_principal{
+    display: flex;
+    color: white;
+    font-size: 1em;
+    justify-content: center;
+}
+
+.titre_dimage{
+    width: 45%;
+    font-size: clamp(0.5em,2vw,4em);
+}
+
+.titre_dimage h1{
+    font-size: clamp(1.3em,2vw,4em);
+    font-weight: normal;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.Plate-Image {
+    width:90%
+}
+
+.titre_dimage p {
+    font-size: clamp(0.5em,2vw,4em);
+    text-align: center;
+}
+
+.dessert{
+  margin-top: 10px;  
+  font-size: clamp(0.5em,2vw,4em);
+}
+
+.dessert h1{
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    font-size: clamp(1.3em,2vw,4em);
+}
+.dessert p{
+    color: white;
+    font-size: clamp(0.6em,2vw,4em);
+    text-align: left;
+}
+
+.desktop{
+    display: none;
+}
+
+
+ /* Slideshow container */
+ .slideshow-container {
+    position: relative;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+   width: 100%;
+   height: auto;
+   justify-content: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  @media only screen and (min-width: 811px){
+    .desktop{
+        display: block;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap:20px ;
+        margin-top: 4%;
+    }
+
+    .slideshow-container {
+        display: none;
+      }
+     
+    .d_contenu1{
+        width: 50%;
+        margin-left: 100px;
+    }
+
+    .d_contenu2{
+        width: 50%;
+        margin-right: 100px;
+    }
+     
+    .ALL1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ALL{
+        margin-top: 50px;
+    }
+
+    .head_icon{
+        flex-direction: column;
+        width: 20%;
+        gap: 1rem;
+        margin-left: 10px;
+    }
+
+    .fa-calendar-day{
+        color: #FA9403;
+    }
+
+      .recette1{
+          font-size: 0.5em;
+      }
+     
+     .lentrer{
+         font-size: clamp(0.5em,1vw,4em);
+     }
+     .lentrer h1{
+         font-size: clamp(1.3em,1vw,4em);
+     }
+     
+     .lentrer p{
+         font-size: clamp(0.6em,1vw,4em);
+     }
+     
+     .list_resett1  h1{
+         font-size: clamp(0.6em,1vw,4em);
+     }
+     .list_resett1 ul li {
+          font-size: clamp(0.5em,1vw,4em);
+     }
+     .list_resett2{
+        
+     }
+     
+     .list_resett2 ul li {
+         font-size: clamp(0.5em,1vw,4em);
+     }
+
+     .list_resett2  h1{
+         font-size: clamp(0.6em,1vw,4em);
+     }
+     
+     .plat_principal{
+         font-size: 0.5em;
+     }
+     
+     .titre_dimage{
+         font-size: clamp(0.5em,1vw,4em);
+     }
+     
+     .titre_dimage h1{
+         font-size: clamp(1.3em,1vw,4em);
+     }
+     
+     .Plate-Image {
+    
+     }
+     
+     .titre_dimage p {
+         font-size: clamp(0.5em,1vw,4em);
+     }
+     
+     .dessert{
+       font-size: clamp(0.5em,1vw,4em);
+     }
+     
+     .dessert h1{
+         font-size: clamp(1.3em,1vw,4em);
+     }
+     .dessert p{
+         font-size: clamp(0.6em,1vw,4em);
+     }
+    
+
+}
+  
