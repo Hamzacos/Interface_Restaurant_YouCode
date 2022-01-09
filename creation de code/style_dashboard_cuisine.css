@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_bare{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 26px;
+    gap:2rem;
+}
+
+.icone{
+    width: 61px;
+    height: 51px;
+}
+
+.contenu{
+    background-color: #3C3A3A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:17px 13px 50px 13px;
+    margin:0 39px 53px 39px;
+    border-radius: 10px;
+    border:solid 2px;
+    border-color: #FA9403 ;
+}
+
+iframe{
+    margin-bottom: 51px;
+}
+
+.ensemble_plats{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    color: #FA9403;
+    margin-bottom: 31px;
+    font-size: clamp(1.75em,4vw,3em);
+}
+
+.choix1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: clamp(2rem,10vw,5rem);
+}
+
+.plat_reservé{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.plat{
+    padding: 17px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #2C2B2B;
+    border-radius: 5px;
+    border:solid 1px;
+    border-color: #FA9403;
+    margin-bottom: 8px;
+    max-width: 700px;
+}
+
+.poulet{
+    width: 40%;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.titre_plat{
+    color: f6f6f6;
+    font-weight: 600;
+    font-size: clamp(0.1em,3.75vw,2em);
+}
+
+.Quantité{
+    font-size: clamp(0.1em,3vw,2em);
+    font-weight: 600;
+    color: f6f6f6;
+}
+
+.Detail{
+    font-size: clamp(0.1em,3vw,2em);
+    font-weight: 600;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.choix2{
+    display: flex;
+    flex-direction: column;
+}
+
+.poisson{
+    width: 40%;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+@media only screen and (min-width: 811px){
+    .all{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .nav_bare{
+        align-self: flex-start;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .reserv{
+        justify-content: center;
+        margin-top: 100px;
+        padding-right:50px;
+    }
+
+    .contenu{
+        justify-content: center;
+        padding:17px 13px 0px 13px;
+    }
+
+    .ensemble_plats{
+        flex-direction: row;
+        gap:2rem;
+    }
+
+    .title{
+        margin-bottom: clamp(1.5em,1vw,3em);
+    }
+
+    .titre_plat{
+        color: f6f6f6;
+        font-weight: 600;
+        font-size: clamp(0.1em,1.75vw,2em);
+    }
+    
+    .Quantité{
+        font-size: clamp(0.1em,1.5vw,2em);
+    }
+    
+    .Detail{
+        font-size: clamp(1em,1.5vw,2em);
+    }
+}
