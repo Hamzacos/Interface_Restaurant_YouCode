@@ -44,9 +44,52 @@ body{
   font-size: 30px;
 }
 
+  /* -------- Menu Phone ----------- */
+  .content_menu_phone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: none;
+    z-index: 9;
+    text-align: center;
+  }
+  
+  .content_menu_phone i{
+    position: absolute;
+    top: 20px;
+    right:  20px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .content_menu_phone ul{
+    margin-top: 50px;
+  }
+  
+  .content_menu_phone ul li{
+    margin: 20px 0;
+  }
+  
+  .content_menu_phone ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .add{
+    display: block;
+  }
+
 @media screen and (min-width: 630px){
   body{
     background-image: url(../Images/background_desktop.png);
+  }
+
+  .menu_navbar{
+    display: none;
   }
 
   .nav img{
@@ -60,6 +103,10 @@ body{
     gap: 20px;
   }
   .ul_nav li a{
+    color: white;
+  }
+ 
+  .ul_nav li.active a{
     color: #E19630;
   }
 
@@ -103,9 +150,7 @@ body{
     align-items: center;
   }
 
-  .menu_navbar{
-    display: none;
-  }
+
 }
 
 @media screen and (min-width: 750px){
