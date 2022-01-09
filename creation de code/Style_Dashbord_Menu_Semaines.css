@@ -1,0 +1,127 @@
+.part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_Plats{
+  border: 4px solid #FA9403;
+  background-color: #3C3A3A;
+  width: 65%;
+  padding-top: 15px;
+  margin: 30px 0;
+}
+
+.back1,
+.back2,
+.back3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.Lundi h1,
+.Mardi h1,
+.Mercredi h1,
+.Jeudi h1,
+.Vendredi h1{
+  font-size: 12px;
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: -60px;
+  margin-bottom: 20px;
+}
+
+.Lundi,
+.Mardi,
+.Mercredi,
+.Jeudi,
+.Vendredi{
+  background-image: url(../Images/img-background2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 12px;
+}
+
+.Tous_Choix{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.choix1 img,
+.choix2 img{
+  width: 100%;
+  height: 75px;
+  margin-left: 5px;
+}
+
+.choix1 p:first-child,
+.choix2 p:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.choix1 p:last-child,
+.choix2 p:last-child{
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 850px) {
+  .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .back1,
+  .back2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 45px;
+  }
+
+  .Col_Part{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Tous_Choix{
+    width: 80%;
+  }
+
+  .part1{
+    width: 100%;
+    padding: 50px 0 30px 0;
+  }
+
+  
+}
+

@@ -1,0 +1,418 @@
+.connectez{
+    display: none;
+}
+
+.first_part_SignIn{
+    display: none;
+}
+
+.images_Signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.images_Signin img{
+    width: 100px;
+}
+
+.form_signin{
+    background-color: #000000;
+    opacity: 0.8;
+    color: #fff;
+    width: 350px;
+    border: 3px solid #DF942E;
+    margin: 20px auto;
+}
+
+.form_signin h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.inpt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inpt input,
+.inpt label{
+    margin-bottom: 10px;
+}
+
+
+.inpt input{
+    width: 240px;
+    height: 35px;
+    border: 3px solid #DDA306;
+    background-color: #858380;
+    border-radius: 5px;
+}
+
+.inpt,
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inpt label{
+    width: 240px;
+}
+
+.check{
+    display: flex;
+    /* flex-direction: row; */
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.col_check input{
+    margin-right: 5px;
+}
+
+.col_check{
+    transform: translateX(-20px);
+}
+
+.check a{
+    transform: translateX(20px);
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.form_signin button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: #DF942E;
+    flex-direction: row-reverse;
+}
+
+.btn_phone{
+    display: flex;
+    justify-content: right;
+    transform: translate(-10px ,20px);
+}
+
+.btn_desktop{
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .check{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .col_check{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .check a{
+        margin-top: 8px;
+    }
+}
+
+
+@media screen and (min-width: 630px) {
+    .Generale_SignIn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(30%);
+        flex-direction: row;
+    }
+    
+    .form_signin{
+        padding: 10px;
+        width: 300px;
+        border: none;
+    }
+
+    .first_part_SignIn{
+        display: flex;
+        width: 260px;
+        height: 360px;
+        background-image: linear-gradient(to top, #D08327, #684214);
+    }
+    
+    .first_part_SignIn img{
+        display: flex;
+        top: 100%;
+        width: 240px;
+        height: 240px;
+        margin-top: 40px;
+    }
+
+    .images_Signin{
+        display: none;
+    }
+
+    .btn_phone{
+        display: none;
+    }
+
+    .btn_desktop{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    #connexion{
+        background-color: #FA9403;
+        font-size: 16px;
+        font-weight: 600;
+        width: 240px;
+        height: 35px;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-image: linear-gradient(to bottom, #000, #545454);
+    height: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav img{
+    width: 150px;
+    height: 35px;
+    margin: 10px 0 5px 20px;
+  }
+  
+  .ul_nav{
+    display: none;
+  }
+  
+  .menu_navbar{
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: none;
+  }
+  
+  .menu_navbar a i{
+    font-size: 30px;
+  }
+
+.imagee{
+    width: 126px;
+    margin-top:-200px;
+    margin-right: -1px;
+    position: absolute;
+    bottom: 380px;
+}
+.logo{
+    width:250px ;
+    height: 200px;
+    margin: 2px 70;
+    padding: 30px;
+}
+
+ 
+body{
+    background-image: url(img.png);
+    height: 812px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-attachment: fixed;
+}
+
+
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  
+    
+}
+
+.title{
+padding-left: 25px;
+margin: 28px;
+font-size: 13px;
+}
+h1{
+    color: white;
+    position: absolute;
+   font-size: 30px;
+    right: 140px;
+}
+ 
+form{
+   
+    width: 320px;
+    height: 440px;
+    padding: 10px 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+    gap: 30px;
+    background-color: #000000 ;
+    opacity: 60%;
+    border: 2px  #DDA306 solid ;
+    margin: 170px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 56px;
+}
+div{
+    border: 2px solid rebeccapurple;
+}
+.motPasse{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+label{
+    color: white;
+   
+  
+}
+.lab{
+   font-size: 20px; 
+}
+.lab2{
+    font-size: 20px; 
+}
+input {
+    border:2px  #DDA306 solid;
+    background-color: #858380;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.button{
+    width:60px;
+}
+
+.boutton{
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: -95px;
+    right: 35px;
+}
+.lab{
+    box-sizing: border-box;
+    display: flex;
+    gap: 5px;;
+    align-items: center;
+  
+  }
+  .a{
+      color: rgb(55, 0, 255);
+      text-decoration: none;
+      position: absolute;
+      top: 550px;
+      left: 180px;
+     
+     
+  }
+  A{
+      color: #1D6FFF;
+      font-size:13px ;
+
+  }
+  .labelC{
+      font-size: 13px;
+  }
+  .inpC{
+    width: 20px;
+  }
+  .far{
+background-color: red;
+border: 1px solid red;
+width: 30%;
+height: 30%;
+  }
+
+   */

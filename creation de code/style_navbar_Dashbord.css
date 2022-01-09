@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.list_Nav i,
+.ul_nav{
+  display: none;
+}
+
+.nav{
+  background-image: linear-gradient(to bottom, #000, #545454);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.nav img{
+  width: 120px;
+  height: 35px;
+  margin: 10px 0 5px 20px;
+}
+
+.ul_nav{
+  display: none;
+}
+
+.menu_navbar{
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+  border: none;
+}
+
+.menu_navbar a i{
+  font-size: 30px;
+}
+
+.head_icon{
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  margin-top: 65px;
+}
+
+.icon1 a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.head_icon p{
+  display: none;
+}
+
+.head_icon i{
+  display: flex;
+  font-size: 40px;
+}
+.head_icon.show {
+  width: 300px !important;
+}
+
+.head_icon a.active {
+  color: #E19630;
+}
+.img_Menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.img_Menu img{
+  width: 100%;
+  max-width: 100px;
+}
+
+.paragraph{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+  flex-direction: column;
+  line-height: 50px;
+}
+
+.paragraph p:first-child{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.paragraph p:last-child{
+  font-size: 18px;
+}
+
+@media screen and (min-width: 650px) {
+  .nav{
+    height: 55px;
+  }
+  
+  .menu_navbar{
+    display: none;
+  }
+
+  .list_Nav i,
+  .ul_nav{
+   display: flex;
+  }
+
+  .list_Nav img{
+    width: 140px;
+    height: 30px;
+    margin: 0 20px;
+  }
+
+  .ul_nav{
+    display: flex;
+    gap: 30px;
+  }
+
+  .ul_nav li a{
+    color: #E19630;
+  }
+
+  .ul_nav li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 13px;
+  }
+
+  .ul_nav a{
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .ul_nav i{
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .list_Nav{
+    display: flex;
+    align-items: center;
+  }
+
+  .list_Nav i{
+    color: white;
+    padding: 0 0 0 10px;
+    font-size: 23px;
+  }
+
+  .connectez{
+    background-image: linear-gradient(to left, #000, #545454);
+    border: 1px solid #E19630;
+    color: #E19630;
+    padding: 6px 12px;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .head_icon{
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 80, 80, 40%);
+    color: white;
+    position: fixed;
+    justify-content: center;
+    top: -15px;
+    left: 0;
+    row-gap: 50px;
+  }
+
+  .icon1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+    transform: translateY(-40px);
+  }
+
+  .icon1 p{
+    display: block !important;
+    font-size: 12px;
+    margin-left: 15px;
+    white-space: nowrap;
+  }
+  .head_icon {
+    overflow: hidden;
+    transition: all .2s;
+  }
+  .icon1 i{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .nav{
+    height: 60px;
+  }
+  
+  .list_Nav img{
+    height: 38px;
+  }
+
+  .ul_nav i{
+    font-size: 22px;
+  }
+
+  .ul_nav li{
+    font-size: 18px;
+  }
+
+  .list_Nav i{
+    font-size: 27px;
+  }
+
+  .connectez{
+    font-size: 15px;
+    padding: 8px 18px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .icon1 i{
+    font-size: 40px;
+  }
+  
+  .icon1 p{
+    font-size: 15px;
+  }
+
+  .Tous_Choix{
+    width: 83%;
+  }
+}
