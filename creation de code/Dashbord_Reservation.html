@@ -92,17 +92,26 @@
           <div class="conf-msg">
             Reservation Confirmer !
             <button class="OK"> OK </button>
+          </div>
+          </div>
+          <script>
+            let navToggle = document.querySelector(".fas.fa-list-ul")
+            let headIcon = document.querySelector(".head_icon")
             
-          </div>
-          </div>
-
-
-
+            navToggle.addEventListener("click", toggle)
+            headIcon.addEventListener("click", toggle)
+            
+            
+            function toggle(e) {
+              if(window.innerWidth >= 850) {
+                headIcon.classList.toggle("show")
+              }
+        
+            }
+          </script>
        <script src="app.js"></script>
-   
-
-   <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
-
   </main>
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
 </body>
 </html>
