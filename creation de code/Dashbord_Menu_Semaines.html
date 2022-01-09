@@ -15,17 +15,28 @@
       <nav class="nav">
         <div class="list_Nav">
           <i class="fas fa-list-ul"></i>
-          <img src="../Images/logo.png" alt="logo">
+          <a href="index.html"><img src="../Images/logo.png" alt="logo"></a>
         </div>
         <ul class="ul_nav">
           <li class="active"><a href="index.html">Acceuil</a></li>
-          <li>Contacts</li>
+          <li><a href="Contact_Us.html">Contacts</a></li>
           <i class="fas fa-bell"></i>
-          <i class="fas fa-cog"></i>
+          <a href="Account_Setting.html"><i class="fas fa-cog"></i></a>
           <a href="sign_in.html"><button class="connectez">Se connectez</button></a>
         </ul>
         <div class="menu_navbar">
           <a id="hedding-nav"><i class="fas fa-bars"></i></a>
+        </div>
+
+        <div id="media" class="content_menu_phone">
+          <i id="icon-circle" class="far fa-times-circle"></i>
+          <ul>
+            <li><a href="Index.html">Acceuille</a></li>
+            <li><a href="Contact_Us.html">Contacts</a></li>
+            <li><a href="Account_Setting.html">Settings</a></li>
+            <li><a href="#">Notification</a></li>
+            <li><a href="sign_in.html">Se Connectez</a></li>
+          </ul>
         </div>
       </nav>
     </div>
@@ -34,16 +45,20 @@
     <div class="content">
       <div class="head_icon">
         <div class="icon1">
-          <a href="#"><i class="far fa-calendar-alt"></i>
+          <a href="#"><i class="far fa-calendar-alt active"></i>
           <p>Menu De Semaines</p></a>
         </div>
         <div class="icon1">
-          <a href="Dashbord_Reservation.html"><i class="fas fa-calendar-day"></i>
+          <a href="dashboard_menu_journalier.html"><i class="fas fa-calendar-day"></i>
           <p>Menu Du Jour</p></a>
         </div>
         <div class="icon1">
-          <a href="Dashbord_Menu_Day.html"><i class="fas fa-calendar-plus"></i>
+          <a href="Dashbord_Reservation.html"><i class="fas fa-calendar-plus"></i>
           <p>Reservation</p></a>     
+        </div>
+        <div class="icon1">
+          <a href="Feedback.html"><i class="fas fa-comments"></i>
+          <p>Feedback</p></a>     
         </div>
       </div>
 
@@ -195,10 +210,11 @@
       if(window.innerWidth >= 850) {
         headIcon.classList.toggle("show")
       }
-
     }
   </script>
   </main>
+  
+  <script src="menu_phone.js"></script>
   <script src="./index.js"></script>
   <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
 </body>
