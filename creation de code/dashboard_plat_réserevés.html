@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashbord Menu Semaines</title>
+      
+        <link rel="stylesheet" href="style_dashboard_plat_réserevés.css">
+        <!-- <link rel="stylesheet" href="style_navbar.css"> -->
+        <link rel="stylesheet" href="style_navbar_Dashbord.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link href="/chemin-vers-fontawesome/css/all.css" rel="stylesheet">
+        <meta name="application-url" content="https://invit.com">
+    </head>
+      
+    <body>
+        <main>
+          <!-- Nav Bar Dashbord De Menu -->
+            <div class="nav_bar">
+                <nav class="nav">
+                    <div class="list_Nav">
+                        <i class="fas fa-list-ul"></i>
+                        <img src="../Images/logo.png" alt="logo">
+                    </div>
+                    <ul class="ul_nav">
+                        <li class="active"><a href="index.html">Acceuille</a></li>
+                        <li>Contacts</li>
+                        <select class="select_nav" name="languages" id="languages">
+                        <a href="index.html">
+                            <option value="Francais">Francais</option>
+                        </a>
+                        <a href="Anglais_acceuille.html">
+                            <option value="Anglais">Anglais</option>
+                        </a>
+                        <a href="Arab.html">
+                            <option value="Arab">Arab</option>
+                        </a>
+                        </select>
+                        <i class="fas fa-bell"></i>
+                        <i class="fas fa-cog"></i>
+                        <a href="sign_in.html"><button class="connectez">Se connectez</button></a>
+                    </ul>
+                    <div class="menu_navbar">
+                        <a id="hedding-nav"><i class="fas fa-bars"></i></a>
+                    </div>
+                </nav>
+            </div>
+            <div class="contenue">
+                <div class="icones">
+                    <img src="../Images/parametre-menu.svg" alt="Icon" class="icons">
+                    <img src="../Images/reservation.svg" alt="icon" class="icons">
+                    <img src="../Images/money-graph-with-up-arrow-svgrepo-com_1.svg" alt="icon" class="icons">
+                </div>
+                <div class="plat_réservé">
+                    <h1>PARAMETRE DE MENU</h1>
+                    <form action="">
+                        <div class="bouton">
+                            <button class=" ajouter"><a href="../creation de code/dashboard_plat_réserevés.html" class="aj"><img src="../Images/106230_add_icon.svg" alt="106230_add_icon" class="icon_ajoute"> AJOUTER</a></button>
+                            <button class="modifier"><a href="../creation de code/dashboard_plat_réserevés _modifié.html" class="mod"><img src="../Images/edit-3.svg" alt="106230_add_icon" class="icon_ajoute">MODIFIER</a></button>
+                        </div>
+                        <div>
+                            <div class="jour">
+                                <label for="j">JOUR</label>
+                                <select name="j" id="j">
+                                    <option value="">--SELECTIONNER UN JOUR--</option>
+                                    <option value="LUNDI">LUNDI</option>
+                                    <option value="MARDI">MARDI</option>
+                                    <option value="MERCREDI">MERCREDI</option>
+                                    <option value="JEUDI">JEUDI</option>
+                                    <option value="VENDREDI">VENDREDI</option>
+                                </select>
+                            </div>
+                            <div class="entrée">
+                                <div class="entrée_plat">
+                                    <label for="plat_entrée" >L'ENTREE</label>
+                                    <select name="plat_entrée" id="plat_entrée">
+                                        <option value="">--SELECTIONNER--</option>
+                                        <option value="HARICOT BLANC">HARICOT BLANC</option>
+                                        <option value="SALADE CRUDITE">SALADE CRUDITE</option>
+                                        <option value="LENTILLE EN SAUCE">LENTILLE EN SAUCE</option>
+                                        <option value="SALADE MEXICAINE">SALADE MEXICAINE</option>
+                                        <option value="SALADE MAROCAINE">SALADE MAROCAINE</option>
+                                    </select>
+                                </div>
+                                <div class="recette_dentrée">
+                                    <label for="recette_entrée">RECETTE</label>
+                                    <input type="text" name="recette_entrée" id="recette_entrée">
+                                </div>
+                            </div>
+                            <div class="plat_principal">
+                                <h1>PLAT PRINCIPAL</h1>
+                                <div class="choix">
+                                    <div class="image_de_plat">
+                                        <label for="selec_plat">1<sup>er</sup> CHOIX</label>
+                                        <label for="image_plat"><img src="../Images/icon_upload.svg" alt="icon_upload" class="icon_upload"></label>
+                                        <input type="file" accept="image/png, image/jpeg, image/jpg, image/svg" name="image_plat" id="image_plat">
+                                        <p>(PNG,JPEG,SVG...)</p>
+                                    </div>
+                                    <div class="plat_choix">
+                                        <div class="select_choix">
+                                            <select name="selec_plat" id="selec_plat">
+                                                <option value="">--SELECTIONNER--</option>
+                                                <option value="BLANC DE POULET">BLANC DE POULET</option>
+                                                <option value="FILET DE POISSON">FILET DE POISSON</option>
+                                                <option value="TAGINE DE BOEUF AUX PRUNEAUX">TAGINE DE BOEUF AUX PRUNEAUX</option>
+                                                <option value="POISSON AU FOUR">POISSON AU FOUR</option>
+                                                <option value="BLANC DE POULET FARCIS">BLANC DE POULET FARCIS</option>
+                                                <option value="CROQUETTE DE POISSON">CROQUETTE DE POISSON</option>
+                                                <option value="BOULETTE DE POISSON">BOULETTE DE POISSON</option>
+                                                <option value="EMINCE DE BOEUF">EMINCE DE BOEUF</option>
+                                                <option value="COUSCOUS VIANDE AUX TFAYA">COUSCOUS VIANDE AUX TFAYA</option>
+                                                <option value="TAGINE DE POULET">TAGINE DE POULET</option>
+                                            </select>
+                                        </div>
+                                        <div class="recette_choix">
+                                            <label for="recette_plat">RECETTE</label>
+                                            <input type="text" name="recette_plat" id="recette_plat">
+                                        </div>    
+                                    </div>
+                                </div>    
+                                <div class="choix">
+                                    <div class="image_de_plat">
+                                        <label for="selec_plat">2<sup>ème</sup> CHOIX</label>
+                                        <label for="image_plat"><img src="../Images/icon_upload.svg" alt="icon_upload" class="icon_upload"></label>
+                                        <input type="file" accept="image/png, image/jpeg, image/jpg, image/svg" name="image_plat" id="image_plat">
+                                        <p>(PNG,JPEG,SVG...)</p>
+                                    </div>
+                                    <div class="plat_choix">
+                                        <div class="select_choix">
+                                            <select name="selec_plat" id="selec_plat">
+                                                <option value="">--SELECTIONNER--</option>
+                                                <option value="BLANC DE POULET">BLANC DE POULET</option>
+                                                <option value="FILET DE POISSON">FILET DE POISSON</option>
+                                                <option value="TAGINE DE BOEUF AUX PRUNEAUX">TAGINE DE BOEUF AUX PRUNEAUX</option>
+                                                <option value="POISSON AU FOUR">POISSON AU FOUR</option>
+                                                <option value="BLANC DE POULET FARCIS">BLANC DE POULET FARCIS</option>
+                                                <option value="CROQUETTE DE POISSON">CROQUETTE DE POISSON</option>
+                                                <option value="BOULETTE DE POISSON">BOULETTE DE POISSON</option>
+                                                <option value="EMINCE DE BOEUF">EMINCE DE BOEUF</option>
+                                                <option value="COUSCOUS VIANDE AUX TFAYA">COUSCOUS VIANDE AUX TFAYA</option>
+                                                <option value="TAGINE DE POULET">TAGINE DE POULET</option>
+                                            </select>
+                                        </div>  
+                                        <div class="recette_choix"> 
+                                            <label for="recette_plat">RECETTE</label>
+                                            <input type="text" name="recette_plat" id="recette_plat">
+                                        </div>     
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dessert">
+                                <h1>DESSERT</h1>
+                                <div class="desserts">
+                                    <div class="dessert1">
+                                        <label for="select_dessert">CHOIX 1</label>
+                                        <select name="select_dessert" id="select_dessert">
+                                            <option value="">--SELECTIONNER--</option>
+                                            <option value="LEBEN">LEBEN</option>
+                                            <option value="SALADE CRUDITE">FRUIT DE SAISON</option>
+                                            <option value="LENTILLE EN SAUCE">PRESS UP</option>
+                                        </select>
+                                    </div>
+                                    <div class="dessert1">
+                                        <label for="select_dessert">CHOIX 2</label>
+                                        <select name="select_dessert" id="select_dessert">
+                                            <option value="">--SELECTIONNER--</option>
+                                            <option value="LEBEN">LEBEN</option>
+                                            <option value="SALADE CRUDITE">FRUIT DE SAISON</option>
+                                            <option value="LENTILLE EN SAUCE">PRESS UP</option>
+                                        </select>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="bouton_valider">
+                            <button type="submit" class="submit">VALIDER</button>
+                            <button type="reset" class="reset">ANNULER</button>
+                        </div>  
+                    </form>
+                </div>
+
+            </div>
+        </main>
+        <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>    
+</body>
+</html>
