@@ -1,7 +1,25 @@
+.part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .content_Plats{
   border: 4px solid #FA9403;
-  margin: 30px;
+  background-color: #3C3A3A;
+  width: 65%;
   padding-top: 15px;
+  margin: 30px 0;
+}
+
+.back1,
+.back2,
+.back3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title h1{
@@ -19,12 +37,10 @@
 .Vendredi h1{
   font-size: 12px;
   color: white;
-  width: 70%;
-  height: 35px;
+  width: 80%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  transform: translateX(-40px);
+  margin-left: -60px;
   margin-bottom: 20px;
 }
 
@@ -37,7 +53,7 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 260px;
+  height: 240px;
   margin: 30px 0;
   display: flex;
   justify-content: center;
@@ -51,12 +67,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 80%;
 }
+
 .choix1 img,
 .choix2 img{
   width: 100%;
-  height: 70px;
+  height: 75px;
+  margin-left: 5px;
 }
 
 .choix1 p:first-child,
@@ -64,9 +82,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 10px;
 }
 
 .choix1 p:last-child,
 .choix2 p:last-child{
-  font-size: 10px;
+  font-size: 8px;
+  margin-left: 5px;
 }
+
+@media screen and (min-width: 850px) {
+  .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .back1,
+  .back2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 45px;
+  }
+
+  .Col_Part{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Tous_Choix{
+    width: 80%;
+  }
+
+  .part1{
+    width: 100%;
+    padding: 50px 0 30px 0;
+  }
+
+  
+}
+
