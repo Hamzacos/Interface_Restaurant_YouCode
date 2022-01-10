@@ -1,0 +1,152 @@
+.content_Statistique{
+  background-color: white;
+  margin-top: 30px;
+  width: 100;
+  height: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.title_admin{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title_admin h1{
+  color: #CA9110;
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.title_admin p{
+  color: #CA9110;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.tous_Admin{
+  background-color: #2E2C2C;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.background{
+  background-color: white;
+  border: 5px solid black;
+  margin: 10px;
+  height: 90vh;
+}
+
+.back1,
+.back2,
+.back3,
+.back4{
+  margin-top: 30px;
+}
+.back4{
+  margin-bottom: 20px;
+}
+
+.title_background{ 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+.title_background h1{
+  font-size: 30px;
+}
+
+.title_background button{
+  padding: 10px 20px;
+  background-color: #FA9403;
+  border: none;
+}
+
+.content_background{
+  display: flex;
+  width: 100%;
+}
+
+.part1{
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.entrer_back h1{
+  font-size: 17px;
+  border-bottom: 1px solid black;
+  width: 35%;
+  margin-bottom: 15px;
+}
+
+.princpal_back h1{
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.entrer_back p{
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.princpal_back img{
+  width: 90%;
+  height: 130px;
+}
+
+.princpal_back p{
+  font-size: 12px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.desert_back h1{
+  font-size: 17px;
+  border-bottom: 1px solid black;
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+.part2{
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 10px;
+}
+
+.recet_back h1{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.recet_back p{
+  font-size: 15px;
+}
+
+.img_ftr{
+  width: 100%;
+}
+
+.img_ftr img{
+  margin-left: 20px;
+  width: 80%;
+  height: 200px;
+}
