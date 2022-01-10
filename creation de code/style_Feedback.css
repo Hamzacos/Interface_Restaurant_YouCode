@@ -7,16 +7,13 @@
     flex-direction: column;
     background-color: black;
     border-radius: 8px;
-    /* min-height: 100vh; */
-    /* background-color: #20152d; */
 }
 .Bdy-bg{
-    background-color: white;
+    
     padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 h2{
     color: #E19630;
@@ -55,14 +52,6 @@ hr{
     width: 100%;
     
 }
-/* .rating label h4{
- color: #fff;
- font-size: 24;
- padding-top: 10px;
- opacity: 0;
- transform: translateY(-50px) scale(0);
- transition: 0.5s;
-} */
 .rating input:hover +label,
 .rating input:checked +label h4{
 
