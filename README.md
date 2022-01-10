@@ -21,6 +21,7 @@ Restaurant Youcode vient d'ouvrir ses portes. Il a besoin d'un système de gesti
 •	Autant que Administrateur, je peux gérer les droits de sélection du plat du jour afin de pouvoir enlever ce droit aux utilisateur absent. 
 
 Travaille :
+
 L’un des premières taches c’est d’analyser le cahier de charges puis Créée un environnement de travaille sur GitHub à l’aide de GIT et toujours sur GitHub on a Cree un tableau KANBAN
 Et sur ce dernier on a diviser les taches à faire commençant par la case TO DO puis le développement 1 qui contient DOING et DO et après la validation de cette partie la tache va aller sur le développement 2, après le test on va mentionne la tache dans la case DONE et on a ajouté une case BLOCKAGE si un de l’équipe il a un block donc un de nous va faire une intervention pour résoudre le problème.
   On a commencé nos travaille par crée un Design Löw fedility puis un design high fedility commençant par la page d’accueil et la page connexion et Dashboard utilisateur qui contient menu de semaine et la réservation et le feedback et dans cette étape on a diviser nos équipes à deux équipe, équipe qui va travailler sur le Design et l’autre équipe va travailler sur la réalisation du code.
