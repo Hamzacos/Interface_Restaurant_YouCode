@@ -1,0 +1,26 @@
+color:
+
+ 	--black rgba(0, 0, 0, 1);
+  	--Orange rgba(251, 153, 2);
+        --white rgba(255, 255, 255, 1);
+        --cod-gray rgba(12, 12, 12, 1);
+Font size:
+
+ 	--font-size-s 8px;
+  	--font-size-m 9px;
+  	--font-size-l 10px;
+  	--font-size-xl 11px;
+  	--font-size-xxl 15px;
+  	--font-size-xxxl 24px;
+  	--font-size-xxxxl 25px;
+
+Font family:
+
+ 	 --font-family-poppins 
+   	"Poppins";
+        "Tempus Sans ITC";
+
+Affichage:
+
+ 	mobile: 375px;
+	DESKTOP:1920px.
