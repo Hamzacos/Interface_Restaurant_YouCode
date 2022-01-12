@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.contenue{
+   display: flex;
+   flex-direction: column;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 26px;
+    gap:2rem;
+}
+.icons{
+    width: 61px;
+    height: 51px;
+}
+
+
+.icon_upload{
+    width: 32%;
+}
+
+.plat_réservé{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    align-items: center;
+}
+
+.plat_réservé h1{
+    color:#FA9403;
+    font-size: clamp(1.3em,1vw,4em);
+    margin-top: 10%;
+
+}
+
+form{
+    background-color: #525252;
+    border:solid 2px;
+    border-color: #FA9403;
+    display: flex;
+    flex-direction: column;
+    padding: 0 7% 7% 7%;
+    margin:6% 0%;
+    border-radius:10px;
+}
+
+.bouton{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ajouter{
+    width:94px;
+    height:33px;
+    border-radius: 0;
+    border: none;
+    color: #FA9403;
+    background-color: #2C2B2B;
+    font-weight: 600;
+}
+
+.icon_ajoute{
+    width:20px;
+    height: 20px;
+}
+
+.aj{
+    text-decoration: none;
+    color: #FA9403;
+}
+
+.mod{
+    text-decoration: none;
+    color: black;
+}
+
+.modifier{
+    width:94px;
+    height:33px;
+    border-radius: 0;
+    border: none;
+    background-color:#FA9403;
+    font-weight: 600;
+}
+
+.jour{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.jour label{
+    color: white;
+    margin-bottom: 10px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#j{
+    width: 100%;
+    height: clamp(2em,1vw,5em);
+    background-color: #2C2B2B;
+    border: none;
+    border-bottom:#FA9403 solid 2px ;
+    color: rgba(246,246,246,0.33);
+    border-radius: 5px 5px 0 0;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.entrée{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.entrée_plat{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.entrée_plat label{
+    color: white;
+    margin-bottom: 10px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#plat_entrée{
+    width: 100%;
+    background-color: #2C2B2B;
+    border: none;
+    border-bottom:#FA9403 solid 2px ;
+    color: rgba(246,246,246,0.33);
+    height: clamp(2em,1vw,5em);
+    border-radius: 5px 5px 0 0;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.recette_dentrée{
+    display:flex;
+    flex-direction: column;
+}
+
+.recette_dentrée label{
+    color: white;
+    margin-bottom: 10px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#recette_entrée{
+    height: clamp(7em,1vw,10em);
+    width: 100%;
+    background-color: #2C2B2B;
+    border: none;
+    border-bottom:#FA9403 solid 2px ;
+    color: rgba(246,246,246,0.33);
+    border-radius: 5px 5px 0 0;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+
+.plat_principal h1{
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.choix{
+    
+}
+
+.image_de_plat{
+    display: flex;
+    flex-direction: column;
+}
+
+.image_de_plat label{
+    color: white;
+    margin-bottom: 10px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#image_plat{
+    display: none;
+}
+
+.image_de_plat p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: clamp(0.4em,1vw,2em);
+    font-weight: 600;
+}
+
+.plat_choix{
+    display: flex;
+    flex-direction: column;
+}
+
+.select_choix{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+.select_choix label{
+    color: white;
+    margin-bottom: 8px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#selec_plat{
+    height: clamp(2em,1vw,5em);
+    width: 100%;
+    background-color: #2C2B2B;
+    border: none;
+    border-bottom:#FA9403 solid 2px ;
+    color: rgba(246,246,246,0.33);
+    border-radius: 5px 5px 0 0;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.recette_choix{
+    display: flex;
+    flex-direction: column;
+}
+
+.recette_choix label{
+    color: white;
+    margin-bottom: 8px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#recette_plat{
+    height: clamp(7em,1vw,10em);
+    width: 100%;
+    background-color: #2C2B2B;
+    border: none;
+    border-bottom:#FA9403 solid 2px ;
+    color: rgba(246,246,246,0.33);
+    border-radius: 5px 5px 0 0;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.desserts{
+    display: flex;
+    flex-direction: column;
+}
+
+.dessert h1{
+    color: white;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.dessert1{
+    display: flex;
+    flex-direction: column;
+}
+
+.dessert1 label{
+    color: white;
+    margin-bottom: 8px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+#select_dessert{
+    height: clamp(2em,1vw,5em);
+    width: 100%;
+    background-color: #2C2B2B;
+    border: none;
+    border-bottom:#FA9403 solid 2px ;
+    color: rgba(246,246,246,0.33);
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.bouton_valider{
+    display:flex;
+    justify-content: center;
+    gap:0.5rem;
+    margin-top: 50px;
+}
+
+.submit{
+    width: 100px;
+    height:30px;
+    background-color: #FA9403;
+    border-radius: 5px;
+    border: black solid 1px;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+.reset{
+    width: 100px;
+    height:30px;
+    background-color: black;
+    border-radius: 5px;
+    border: #FA9403 solid 1px;
+    color:#FA9403 ;
+    font-size: clamp(0.8em,1vw,2em);
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 800px){
+    .contenue{
+        flex-direction: row;
+    }
+
+    .icones{
+       
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    
+    .icon_upload{
+        width: 25%;
+    }
+
+    .plat_réservé{
+        width: 90%;
+    }
+
+    #j{
+        width: 45%;
+        height: clamp(3em,1vw,10em);
+
+    }
+
+    .entrée{
+        flex-direction: row;
+        gap:10%;
+        justify-content: space-around;
+    }
+
+
+    .entrée_plat{
+        width: 50%;
+    }
+
+    #plat_entrée{
+        height: clamp(3em,1vw,10em);
+    }
+
+    .recette_dentrée{
+        width: 50%;
+    }
+
+    #recette_entrée{
+        height: clamp(10em,1vw,10em);
+    }
+
+    .plat_principal h1{
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+    
+    .plat_choix{
+        flex-direction: row;
+        gap:10%;
+    }
+
+    .select_choix{
+        width: 50%;
+    }
+    
+    #selec_plat{
+        height: clamp(3em,1vw,10em);
+    }
+
+    .recette_choix{
+        width: 50%;
+        margin-top: -28px;
+    }
+
+    #recette_plat{
+        height: clamp(10em,1vw,10em);
+    }
+
+    .desserts{
+        flex-direction: row;
+        gap:10%;
+    }
+
+    #select_dessert{
+        height: clamp(3em,1vw,10em);
+    }
+
+    .dessert1{
+        width: 50%;
+    }
+}
+

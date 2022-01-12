@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_navbar_Dashbord.css">
+    <link rel="stylesheet" href="style_Feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <main>
+    <div class="nav_bar">
+        <nav class="nav">
+          <div class="list_Nav">
+            <i class="fas fa-list-ul"></i>
+            <a href="index.html"><img src="../Images/logo.png" alt="logo"></a>
+          </div>
+          <ul class="ul_nav">
+            <li><a href="index.html">Acceuille</a></li>
+            <li>Contacts</li>
+            <li id="li" ><i class="fas fa-bell"></i></li>
+            <li id="li"><a href="Account_Setting.html"><i class="fas fa-cog"></i></a></li>
+            <a href="sign_in.html"><button class="connectez">Se connectez</button></a>
+          </ul>
+          <div class="menu_navbar">
+            <a id="hedding-nav"><i class="fas fa-bars"></i></a>
+          </div>
+
+          <div id="media" class="content_menu_phone">
+            <i id="icon-circle" class="far fa-times-circle"></i>
+            <ul>
+              <li><a href="Index.html">Acceuille</a></li>
+              <li><a href="Contact_Us.html">Contacts</a></li>
+              <li><a href="Account_Setting.html">Settings</a></li>
+              <li><a href="#">Notification</a></li>
+              <li><a href="sign_in.html">Se Connectez</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+  
+      
+      <div class="head_icon">
+        <div class="icon1">
+          <a href="Dashbord_Menu_Semaines.html"><i class="far fa-calendar-alt active"></i>
+          <p>Menu De Semaines</p></a>
+        </div>
+        <div class="icon1">
+          <a href="dashboard_menu_journalier.html"><i class="fas fa-calendar-day"></i>
+          <p>Menu Du Jour</p></a>
+        </div>
+        <div class="icon1">
+          <a href="Dashbord_Reservation.html"><i class="fas fa-calendar-plus"></i>
+          <p>Reservation</p></a>     
+        </div>
+        <div class="icon1">
+          <a href="#"><i class="fas fa-comments"></i>
+          <p>Feedback</p></a>     
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="Bdy-bg">
+        <div class="container">
+       <div class="img-div">
+           <img src="../Images/undraw_signIn.png" alt="Feedback">
+       </div>
+    <div class="Bdy">
+        <h2> Votre Feedback</h2>
+        <p>Nous aimerons avoir vos commentaires pour améliorer</p>
+        <hr>         
+        <p>Quelle votre opinion aujourd'hui ?</p>
+    
+    <div class="rating">
+    
+        
+        
+        <input type="radio" name="star" id="star1" checked="checked">
+        <label for="star1">
+            <img src="../Images/stisfied.svg">
+        </label>
+        <input type="radio" name="star" id="star2">
+        <label for="star2">
+            <img src="../Images/smiled.svg">
+        </label>
+        <input type="radio" name="star" id="star3">
+        <label for="star3">
+            <img src="../Images/choked.svg">
+        </label>
+        <input type="radio" name="star" id="star4">
+        <label for="star4">
+            <img src="../Images/sad.svg">
+        
+        </label>
+        <input type="radio" name="star" id="star5">
+        <label for="star5">
+            <img src="../Images/angry.svg">
+        </label>
+    </div>
+    <hr> 
+    <p>veullez laisser vos commentaires ci-dessous </p>
+    <textarea cols="15" rows="5" placeholder="Vos commentaires..."></textarea>
+    <button id="BOTON">Envoyer</button>
+</div>
+</div>
+</div>
+</main>
+
+<script>
+  let navToggle = document.querySelector(".fas.fa-list-ul")
+  let headIcon = document.querySelector(".head_icon")
+  
+  navToggle.addEventListener("click", toggle)
+  headIcon.addEventListener("click", toggle)
+  
+  
+  function toggle(e) {
+    if(window.innerWidth >= 850) {
+      headIcon.classList.toggle("show")
+    }
+  }
+</script>
+
+
+
+  <script src="../creation de code/Java_Script/menu_phone.js"></script>
+  <script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
+</body>
+</html>

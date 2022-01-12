@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(46, 44, 44); */
+}
+
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+  /* deux icones  */
+.econs{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 26px;
+    gap:2rem;
+ 
+}
+.icone{
+    width: 61px;
+    height: 51px;
+}
+
+
+    /* Plate reserves */
+.Titl_Plats{
+    margin-top: 20px;
+    color: #FA9403 ;
+    text-align: center;
+}
+
+/*  2 icon  */
+
+.date-arrow{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 1fr;
+
+} 
+.arrow{
+    width: 50px;
+    height: 50px;
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: 10px;
+}    
+
+/* title 2  */
+.title{
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.no-border {
+    margin-left: 20px;
+}
+
+.with-border {
+    border: none;
+    border-left: 2px solid white;
+    border-color: #FA9403;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3C3A3A;
+    border-radius: 10px;
+    border:solid 2px;
+    border-color: #FA9403 ;
+    margin: 17px;
+    transform: translateY(50px);
+}
+
+
+iframe{
+    margin-bottom: 51px;
+}
+
+
+.table {
+    color: white;
+    font-size: 15px;
+    /* margin-left: 20px; */
+    width: 80vw;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+table, td {
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    opacity:140%;
+    font-size: 12px;
+}
+
+table, th {
+    border: none!important; 
+}
+
+table, td {
+    border: none;
+    border-top: 1px solid #FA9403;
+}
+@media screen and (min-width: 820px){
+    
+    
+    .Titl_Plats{
+ 
+        font-size: 32PX;
+       
+    }
+   
+    
+    .Container {
+    
+        margin: 60px;
+        height: 860px;
+       
+    }
+    table, td {
+       
+        font-size: 17px;
+    }
+   
+    
+    table, th {
+        font-size: 17px;
+    }
+
+    }
+     @media screen and (min-width: 1270px){
+        .Titl_Plats{
+ 
+            font-size: 32PX;
+           
+        }
+    
+        .Container {
+        
+            margin: 90px;
+            height: 1200px;
+           
+           
+        }
+        table, td {
+           
+            font-size: 17px;
+          padding: 20px;
+         margin: 50px;
+        }
+       
+        
+        table, th {
+            font-size: 17px;
+            padding: 10px;
+        }
+        
+        }
+     
+    
+
+    

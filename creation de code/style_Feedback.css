@@ -1,0 +1,143 @@
+.Bdy{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 8px;
+}
+.Bdy-bg{
+    
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #E19630;
+    padding: 15px;
+}
+hr{
+    border: 1px solid #E19630;
+    width: 80%;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.rating input{
+    display: none;
+}
+.rating label{
+    width: 0;
+    height: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    filter: grayscale(1);
+    text-align: center;
+    opacity: 0;
+}
+.rating:hover label{
+    width : 100%;
+    opacity: 0.2;
+
+}
+.rating input:hover +label,
+.rating input:checked +label{
+    filter: grayscale(0);
+    opacity: 1;
+    width: 100%;
+    
+}
+.rating input:hover +label,
+.rating input:checked +label h4{
+
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+}
+.rating label img{
+    width: 100%;
+    height: 50px;
+} 
+p {
+    font-size: 70% ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 8px;
+}
+
+textarea{
+    margin: 15px;
+    border: 1px solid #E19630;
+    border-radius: 3px;
+    background: white;
+    width: 90%;
+
+}
+#BOTON{
+    margin: 16px 0;
+    border:none;
+    background: #E19630;
+    color: black;
+    padding: 5px 0;
+    width: 40%;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+}
+.img-div{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+
+@media screen and (min-width:850px) {
+    .Bdy-bg{
+        background-color: black;
+    }
+    .Bdy{
+        width: 80%;
+        background-color: #0E0D0D;
+        
+    }
+    .img-div {
+        background:linear-gradient(to top, #D08327, #684214);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        
+    }   
+    .img-div img {
+        width: 70%;
+        height: 80%;
+        
+        padding-top: 70px;
+        
+    }
+    .container{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        
+        
+    }
+   
+
+    
+}

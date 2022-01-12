@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashbord Statistique</title>
+  <link rel="stylesheet" href="style_navbar_Dashbord.css">
+  <link rel="stylesheet" href="style_Dashbord_Statistique.css">
+</head>
+<body>
+  <main>
+    <!-- Nav Bar Dashbord De Menu -->
+    <div class="nav_bar">
+      <nav class="nav">
+        <div class="list_Nav">
+          <i class="fas fa-list-ul"></i>
+          <img src="../Images/logo.png" alt="logo">
+        </div>
+        <ul class="ul_nav">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="Contact_Us.html">Contacts</a></li>
+          <li id="li" ><i class="fas fa-bell"></i></li>
+          <li id="li"><a href="Account_Setting.html"><i class="fas fa-cog"></i></a></li>
+          <a href="sign_in.html"><button class="connectez">Se connectez</button></a>
+        </ul>
+        <div class="menu_navbar">
+          <a id="hedding-nav"><i class="fas fa-bars"></i></a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Head Icon -->
+    <div class="content">
+      <div class="head_icon">
+        <div class="icon1">
+          <a href="Admin.html"><i class="fas fa-user-shield"></i>
+          <p>Admin</p></a>
+        </div>
+        <div class="icon1">
+          <a href="Dashbord_Reservation.html"><i class="fas fa-user-plus"></i>
+          <p>Ajouter Un Compt</p></a>
+        </div>
+        <div class="icon1">
+          <a href="Dashbord_Menu_Day.html"><i class="fas fa-user-edit"></i>
+          <p>Modifier Supprimer</p></a>     
+        </div>
+        <div class="icon1">
+          <a href="#"><i class="fas fa-comments"></i>
+          <p>Feedback</p></a>     
+        </div>
+      </div>
+
+      <div class="content_Statistique">
+        <div class="title_statique">
+          <div class="title">
+            <h1>Dashbord</h1>
+            <p>/Staatistiqe</p>
+          </div>
+          <div class="retour">
+            <a href=""><i class="fas fa-arrow-left"></i></a>
+          </div>
+        </div>
+
+        <div class="tous_Statistique">
+          <div class="number_statistique">
+            <div class="part1_Statistique">
+              <p>24,8 %</p>
+              <p>Tres insatisfait</p>
+            </div>
+            
+            <div class="part2_Statistique">
+              <p>4,5 %</p>
+              <p>Plutot insatisfait</p>
+            </div>
+            
+            <div class="part3_Statistique">
+              <p>7,9 %</p>
+              <p>Neutre</p>
+            </div>
+            
+            <div class="part4_Statistique">
+              <p>15,8 %</p>
+              <p>Neutre</p>
+            </div>
+            
+            <div class="part5_Statistique">
+              <p>47,0 %</p>
+              <p>Plutot Satisfait</p>
+            </div>
+          </div>
+  
+          <div class="footer_sttistique">
+            <p>Taux Global</p>
+            <p>64,9 %</p>
+          </div>
+
+          <div class="footer_sttistique_img">
+              <img src="../Images/Taux-Global.png" alt="Taux-Global">
+          </div>
+        </div>
+        
+      </div>
+     
+
+
+
+
+
+
+    </div>
+  </main>
+
+  <script>
+    let navToggle = document.querySelector(".fas.fa-list-ul")
+    let headIcon = document.querySelector(".head_icon")
+    
+    navToggle.addEventListener("click", toggle)
+    headIcon.addEventListener("click", toggle)
+    
+    
+    function toggle(e) {
+      if(window.innerWidth >= 850) {
+        headIcon.classList.toggle("show")
+      }
+
+    }
+  </script>
+  </main>
+  <script src="./index.js"></script>
+  <script src="../creation de code/Java_Script/menu_phone.js"></script>
+  <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
+</body>
+</html>

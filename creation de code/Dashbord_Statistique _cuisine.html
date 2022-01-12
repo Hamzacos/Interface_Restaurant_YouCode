@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashbord Statistique</title>
+  <link rel="stylesheet" href="style_navbar_Dashbord.css">
+  <link rel="stylesheet" href="style_Dashbord_Statistique _cuisine.css">
+</head>
+<body>
+  <main>
+    <!-- Nav Bar Dashbord De Menu -->
+    <div class="nav_bar">
+      <nav class="nav">
+        <div class="list_Nav">
+          <i class="fas fa-list-ul"></i>
+          <a href="index.html"><img src="../Images/logo.png" alt="logo"></a>
+        </div>
+        <ul class="ul_nav">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="Contact_Us.html">Contacts</a></li>
+          <li id="li" ><i class="fas fa-bell"></i></li>
+          <li id="li"><a href="Account_Setting.html"><i class="fas fa-cog"></i></a></li>
+          <a href="sign_in.html"><button class="connectez">Se connectez</button></a>
+        </ul>
+        <div class="menu_navbar">
+          <a id="hedding-nav"><i class="fas fa-bars"></i></a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Head Icon -->
+    <div class="content">
+        <div class="icones">
+          <a href="../creation de code/dashboard_plat_réserevés _modifié.html"><img src="../Images/parametre-menu.svg" alt="icone" class="icons"></a>
+          <a href="../creation de code/dashboard_cuisine.html"><img src="../Images/reservation.svg" alt="icone_reservation" class="icons"></a>
+          <a href="../creation de code/Dashbord_Statistique _cuisine.html"><img src="../Images/money-graph-orange.svg" alt="icone_reservation" class="icons"></a>
+        </div>
+
+      <div class="content_Statistique">
+        <div class="title_statique">
+          <div class="title">
+            <h1>Dashbord</h1>
+            <p>/Staatistiqe</p>
+          </div>
+          <div class="retour">
+            <a href=""><i class="fas fa-arrow-left"></i></a>
+          </div>
+        </div>
+
+        
+        
+      </div>
+     
+
+
+
+
+
+
+    </div>
+  </main>
+
+  <script>
+    let navToggle = document.querySelector(".fas.fa-list-ul")
+    let headIcon = document.querySelector(".head_icon")
+    
+    navToggle.addEventListener("click", toggle)
+    headIcon.addEventListener("click", toggle)
+    
+    
+    function toggle(e) {
+      if(window.innerWidth >= 850) {
+        headIcon.classList.toggle("show")
+      }
+    }
+    
+  </script>
+  </main>
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/65e1fe7a04.js" crossorigin="anonymous"></script>
+</body>
+</html>
